@@ -23,17 +23,17 @@ L.marker([49.155564, -0.371525]).addTo(mymap)
 // les bunkers
 //bunker 1
 tiles.addTo(mymap);
-L.marker([49.155564, -0.371525]).addTo(mymap)
+L.marker([49.285376, -0.189309]).addTo(mymap)
     .bindPopup('Bunker allemand Merville-Franceville plage, coord : 49.285376, -0.189309'); //il faut cliquer dessus pour voir le texte
 
 //gros bunker
 tiles.addTo(mymap);
-L.marker([49.155564, -0.371525]).addTo(mymap)
+L.marker([49.283657, -0.221304]).addTo(mymap)
     .bindPopup('Gros Bunker sur lequel on peut monter, coord : 49.283657, -0.221304'); //il faut cliquer dessus pour voir le texte
 
 //espèce de chateau à merville
 tiles.addTo(mymap);
-L.marker([49.155564, -0.371525]).addTo(mymap)
+L.marker([49.282374, -0.218620]).addTo(mymap)
     .bindPopup('Une sorte de château/ ancien edifice militaire autrement appelé la redoute, coord : 49.282374, -0.218620'); //il faut cliquer dessus pour voir le texte
 
 //mini bunker, je ne sais pas lequel
