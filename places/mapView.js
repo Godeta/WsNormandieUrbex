@@ -46,6 +46,21 @@ tiles.addTo(mymap);
 L.marker([49.274464, -0.215778]).addTo(mymap)
     .bindPopup('Bunker transformé en boite de nuit abandonnée avec une maison abandonnée pas loin (environ par là), coord : 49.274464, -0.215778'); //il faut cliquer dessus pour voir le texte
 
+//bunker ? - bunker boite de nuit ?
+tiles.addTo(mymap);
+L.marker([49.269451, -0.220943]).addTo(mymap)
+    .bindPopup('Bunker pas sûr lequel, peut être celui de la boite de nuit, coord : 49.269451, -0.220943');
+
+//tour de refroidissement
+tiles.addTo(mymap);
+L.marker([49.192447, -0.306044]).addTo(mymap)
+    .bindPopup('Ancienne tour de refroidissement de Collombelles, coord : 49.192447, -0.306044');
+
+//tour de pierre
+tiles.addTo(mymap);
+L.marker([49.211150, -0.279927]).addTo(mymap)
+    .bindPopup('Une petite tour faites de pierres assemblées au milieu du petit bois, coord : 49.211150, -0.279927');
+
 //maison abandonnée
 tiles.addTo(mymap);
 L.marker([49.179078, -0.340776]).addTo(mymap)
@@ -55,3 +70,8 @@ L.marker([49.179078, -0.340776]).addTo(mymap)
 tiles.addTo(mymap);
 L.marker([49.154766, -0.368643]).addTo(mymap)
     .bindPopup('Endroit gigantesque découvert par hasard en vélo, il y a aussi une sorte de tour avec escaliers, coord : 49.154766, -0.368643'); //il faut cliquer dessus pour voir le texte
+
+//grange brulée
+tiles.addTo(mymap);
+L.marker([49.248021, -0.223945]).addTo(mymap)
+    .bindPopup('Pas loin de Amfreville, les restes d\' une grange qui a brulée, coord : 49.248021, -0.223945');
