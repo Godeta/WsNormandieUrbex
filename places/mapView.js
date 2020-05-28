@@ -90,6 +90,21 @@ tiles.addTo(mymap);
 L.marker([49.248021, -0.223945]).addTo(mymap)
     .bindPopup('Pas loin de Amfreville, les restes d\' une grange qui a brulée, coord : 49.248021, -0.223945');
 
+//vers lion sur mer 
+tiles.addTo(mymap);
+L.marker([49.310783, -0.336919]).addTo(mymap)
+    .bindPopup('Pas loin de lion sur mer mini vestiges de la 2nd guerre mondiale, coord : 49.310783, -0.336919');
+
+//vers chez titou, bunker
+
+tiles.addTo(mymap);
+L.marker([49.676262, -1.480427]).addTo(mymap)
+    .bindPopup('Ancienne batterie de la 2nd guerre mondiale le coin et aussi très sympa en vélo, coord : 49.676262, -1.480427');
+
+//vestiges vers chez titou
+L.marker([49.673682, -1.482106]).addTo(mymap)
+    .bindPopup('Autres petits vestiges sympa de la 2nd guerre mondiale, coord : 49.673682, -1.482106');
+
 //endroits possibles
 
 //pas sûr du tout
@@ -119,3 +134,24 @@ L.marker([49.270710, -0.183017], {
         icon: unknown
     }).addTo(mymap)
     .bindPopup('Bâtiment un peu paumé donc à voir ?, coord : 49.270710, -0.183017');
+
+//probable 
+tiles.addTo(mymap);
+L.marker([49.313974, -0.342341], {
+        icon: unknown
+    }).addTo(mymap)
+    .bindPopup("Probable qu'il y ai un petit batiment abandonné, coord : 49.313974, -0.342341");
+
+//peu probable, habité ?
+tiles.addTo(mymap);
+L.marker([49.119221, -0.636515], {
+        icon: unknown
+    }).addTo(mymap)
+    .bindPopup("Enfoui parmis les arbres probablement habité mais qui sait ?, coord :  49.119221, -0.636515");
+
+//manoir de nico ?
+tiles.addTo(mymap);
+L.marker([49.329829, -0.459596], {
+        icon: unknown
+    }).addTo(mymap)
+    .bindPopup("Peut être un manoir abandonné ?, coord :  49.329829, -0.459596");
